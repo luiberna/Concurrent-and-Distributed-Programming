@@ -4,8 +4,7 @@ import iscot.enums.Areas;
 import iscot.enums.Type;
 
 public class SensorEvent extends Event {
-
-    private static final long serialVersionUID = 1L;
+    
     private final double value;
 
     //proteced constructor to ensure that only subclasses can instantiate SensorEvent
