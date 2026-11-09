@@ -15,6 +15,10 @@ public class AreaLightingOrderEvent extends HighLevelOrderEvent {
         return active;
     }
 
+    public boolean isOn() {
+        return isActive();
+    }
+
     @Override
     public String toString() {
         return "[DECIDER ILUMINAÇÃO] " + super.toString() + " | ATIVO: " + isActive();

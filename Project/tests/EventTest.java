@@ -49,7 +49,7 @@ public final class EventTest {
             ),
 
             new AreaIrrigationOrderEvent(
-                Areas.Garden, true, 1, 10
+                Areas.Garden, true, 10, 1
             ),
 
             new AreaTemperatureOrderEvent(
@@ -76,7 +76,7 @@ public final class EventTest {
         );
 
         check(
-            ((LightSensorEvent) events[1]).getLight() == 320,
+            ((LightSensorEvent) events[1]).getLightSensorValue() == 320,
             "Valor da luminosidade"
         );
 

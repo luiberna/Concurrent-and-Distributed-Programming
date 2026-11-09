@@ -2,7 +2,7 @@ package iscot.events;
 
 import iscot.enums.Areas;
 
-public class AreaVentilationOrderEvent extends HighLevelOrderEvents {
+public class AreaVentilationOrderEvent extends HighLevelOrderEvent {
 
     //final because the order is immutable, once created it cannot be changed
     private final boolean active;
