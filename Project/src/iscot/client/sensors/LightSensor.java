@@ -1,9 +1,7 @@
 package iscot.client.sensors;
 
 import java.awt.BorderLayout;
-import java.io.IOException;
 
-import iscot.client.*;
 import iscot.enums.*;
 import iscot.events.*;
 import iscot.client.gui.*;

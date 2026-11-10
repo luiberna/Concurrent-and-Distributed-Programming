@@ -5,7 +5,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import iscot.client.gui.*;
 import iscot.enums.*;
-import iscot.events.*;
 
 public class Light {
     public static void main(String[] args) throws NumberFormatException, InterruptedException {

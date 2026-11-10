@@ -28,6 +28,14 @@ public class AirConditioning {
 			janela.pack();
 			janela.setVisible(true);
 
+            ACIcon.setAtivo(true);
+
+            Thread.sleep(1000);
+            AreaTemperatureOrderEvent event = new AreaTemperatureOrderEvent(area, AirConditioningMode.Frio, 22.0);
+            System.out.println("Enviando evento: " + event);
+            ACIcon.setModo(AirConditioningMode.Frio);
+            
+
             // TODO: receive and handle messages from server
 			
 			// TODO: for first phase: create an appropriate event hardcoded locally and change the GUI accordingly
