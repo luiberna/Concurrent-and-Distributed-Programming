@@ -9,13 +9,12 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class LightSensor {
-    public static void mains(String[] args) throws NumberFormatException, InterruptedException {
+    public static void main(String[] args) throws NumberFormatException, InterruptedException {
         if (args.length != 3) {
             System.err.println("Invalid arguments!");
         }
         else {
             // TODO connect to the server
-
             // TODO register with the server
             Areas area = Areas.valueOf(args[2]);
 
