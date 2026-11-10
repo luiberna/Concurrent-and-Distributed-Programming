@@ -1,4 +1,4 @@
-package iscot.client;
+package iscot.client.actuators;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
