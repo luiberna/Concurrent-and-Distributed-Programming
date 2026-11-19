@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "IscoT - Demonstração Fases 1 a 3",
+      "request": "launch",
+      "mainClass": "iscot.demo.DemoFases123",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "IscoT - Testar eventos",
+      "request": "launch",
+      "mainClass": "iscot.demo.SmokeTest",
+      "console": "integratedTerminal"
+    }
+  ]
+}
